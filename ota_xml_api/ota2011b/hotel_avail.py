@@ -1,7 +1,7 @@
     #!/usr/bin/env python
 
-from ..util.xml_base import XmlNode, PeriodNode
-from ..util import constants
+from ota_xml_api.util.xml_base import XmlNode, PeriodNode
+from ota_xml_api.util import constants
 
 class RequestorID(XmlNode):
     def __init__(self, **kwargs):

@@ -6,9 +6,9 @@ This module contains the base xml Node and Period classes
 
 from xml.dom.minidom import getDOMImplementation
 
-from .date import Period
+from date import Period
 
-from .constants import START, END
+from constants import START, END
 
 class XmlNode(object):
     """
